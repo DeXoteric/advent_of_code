@@ -1,15 +1,15 @@
 def find_first_negative_number():
-    input = ""
+    puzzle_input = ""
 
     with open("./2015/day_01_input.txt", "r") as f:
-        input = f.read()
+        puzzle_input = f.read()
 
-    input = list(input)
+    puzzle_input = list(puzzle_input)
 
     floor_number = 0
     iteration = 0
 
-    for character in input:
+    for character in puzzle_input:
         if character == "(":
             floor_number += 1
         else:

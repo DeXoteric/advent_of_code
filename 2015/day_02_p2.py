@@ -1,14 +1,14 @@
 def calculate_total_ribbon_length():
-    input = ()
+    puzzle_input = ()
 
     with open("./2015/day_02_input.txt", "r") as f:
-        input = f.read().splitlines()
+        puzzle_input = f.read().splitlines()
 
-    input = list(map(lambda x: x.split("x"), input))
+    puzzle_input = list(map(lambda x: x.split("x"), puzzle_input))
 
     total_ribbon_length = 0
 
-    for line in input:
+    for line in puzzle_input:
         line = sorted(map(lambda x: int(x), line))
 
         ribbon_length = 2 * line[0] + 2 * line[1]

@@ -1,11 +1,11 @@
 def find_floor():
-    input = ""
+    puzzle_input = ""
 
     with open("./2015/day_01_input.txt", "r") as f:
-        input = f.read()
+        puzzle_input = f.read()
 
-    floor_up = input.count("(")
-    floor_down = input.count(")")
+    floor_up = puzzle_input.count("(")
+    floor_down = puzzle_input.count(")")
 
     return floor_up - floor_down
 

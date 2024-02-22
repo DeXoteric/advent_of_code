@@ -7,7 +7,7 @@ def find_nice_strings():
     puzzle_input = ()
     nice_strings = 0
 
-    with open("./2015/day_05_input.txt", "r") as f:
+    with open("./2015/inputs/day_05_input.txt", "r") as f:
         puzzle_input = f.read().splitlines()
 
     # fancy for loop

@@ -1,7 +1,7 @@
 def calculate_houses_with_present():
     puzzle_input = ()
 
-    with open("./2015/day_03_input.txt", "r") as f:
+    with open("./2015/inputs/day_03_input.txt", "r") as f:
         puzzle_input = tuple(f.read())
 
     visited_houses = [(0, 0)]

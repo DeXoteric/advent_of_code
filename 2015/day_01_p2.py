@@ -1,7 +1,7 @@
 def find_first_negative_number():
     puzzle_input = ""
 
-    with open("./2015/day_01_input.txt", "r") as f:
+    with open("./2015/inputs/day_01_input.txt", "r") as f:
         puzzle_input = f.read()
 
     puzzle_input = list(puzzle_input)

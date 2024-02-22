@@ -1,7 +1,7 @@
 def calculate_total_ribbon_length():
     puzzle_input = ()
 
-    with open("./2015/day_02_input.txt", "r") as f:
+    with open("./2015/inputs/day_02_input.txt", "r") as f:
         puzzle_input = f.read().splitlines()
 
     puzzle_input = list(map(lambda x: x.split("x"), puzzle_input))

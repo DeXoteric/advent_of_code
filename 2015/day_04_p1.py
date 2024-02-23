@@ -1,7 +1,7 @@
 import hashlib
 
 
-def find_hash_with_zeros():
+def day_04_p1():
     secret_key = "iwrupvqb"
     number = 1
     while True:
@@ -12,4 +12,4 @@ def find_hash_with_zeros():
         number += 1
 
 
-print(find_hash_with_zeros())
+print(day_04_p1())

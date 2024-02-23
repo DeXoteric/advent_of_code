@@ -2,7 +2,7 @@ import string
 from itertools import product
 
 
-def find_nice_strings():
+def day_05_p2():
     alphabet = tuple(string.ascii_lowercase)
     puzzle_input = ()
     nice_strings = 0
@@ -24,4 +24,4 @@ def find_nice_strings():
     return nice_strings
 
 
-print(find_nice_strings())
+print(day_05_p2())

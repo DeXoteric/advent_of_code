@@ -1,4 +1,4 @@
-def calculate_total_ribbon_length():
+def day_02_p2():
     puzzle_input = ()
 
     with open("./2015/inputs/day_02_input.txt", "r") as f:
@@ -19,4 +19,4 @@ def calculate_total_ribbon_length():
     return total_ribbon_length
 
 
-print(calculate_total_ribbon_length())
+print(day_02_p2())

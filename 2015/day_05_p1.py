@@ -1,7 +1,7 @@
 import string
 
 
-def find_nice_strings():
+def day_05_p1():
     alphabet = tuple(string.ascii_lowercase)
     vowels = ("a", "e", "i", "o", "u")
     required_strings = tuple(map(lambda x: x + x, alphabet))
@@ -27,4 +27,4 @@ def find_nice_strings():
     return nice_strings
 
 
-print(find_nice_strings())
+print(day_05_p1())

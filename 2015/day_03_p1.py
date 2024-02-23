@@ -1,4 +1,4 @@
-def calculate_houses_with_present():
+def day_03_p1():
     puzzle_input = ()
 
     with open("./2015/inputs/day_03_input.txt", "r") as f:
@@ -21,4 +21,4 @@ def calculate_houses_with_present():
     return len(set(visited_houses))
 
 
-print(calculate_houses_with_present())
+print(day_03_p1())

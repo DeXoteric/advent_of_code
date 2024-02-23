@@ -1,4 +1,4 @@
-def find_first_negative_number():
+def day_01_p2():
     puzzle_input = ""
 
     with open("./2015/inputs/day_01_input.txt", "r") as f:
@@ -19,4 +19,4 @@ def find_first_negative_number():
             return iteration
 
 
-print(find_first_negative_number())
+print(day_01_p2())

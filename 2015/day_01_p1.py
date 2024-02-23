@@ -1,4 +1,4 @@
-def find_floor():
+def day_01_p1():
     puzzle_input = ""
 
     with open("./2015/inputs/day_01_input.txt", "r") as f:
@@ -10,4 +10,4 @@ def find_floor():
     return floor_up - floor_down
 
 
-print(find_floor())
+print(day_01_p1())

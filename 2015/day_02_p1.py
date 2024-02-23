@@ -1,4 +1,4 @@
-def calculate_total_square_feet_of_wrapping_paper():
+def day_02_p1():
     puzzle_input = ()
 
     with open("./2015/inputs/day_02_input.txt", "r") as f:
@@ -27,4 +27,4 @@ def calculate_total_square_feet_of_wrapping_paper():
     return total_box_surface_area + total_extra_surface_area
 
 
-print(calculate_total_square_feet_of_wrapping_paper())
+print(day_02_p1())

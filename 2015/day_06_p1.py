@@ -1,7 +1,7 @@
 import re
 
 
-def find_number_of_lights_on():
+def day_06_p1():
     puzzle_input = ()
     lights = {}
     lights_on = 0
@@ -55,4 +55,4 @@ def toggle_lights(line, lights):
     return lights
 
 
-print(find_number_of_lights_on())
+print(day_06_p1())

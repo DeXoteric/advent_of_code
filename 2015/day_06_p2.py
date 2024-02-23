@@ -1,7 +1,7 @@
 import re
 
 
-def find_total_brightness_of_all_lights():
+def day_06_p2():
     puzzle_input = ()
     lights = {}
     total_brightness = 0
@@ -54,4 +54,4 @@ def brightness_twice_up(line, lights):
     return lights
 
 
-print(find_total_brightness_of_all_lights())
+print(day_06_p2())
